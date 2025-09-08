@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axiom": "^0.17.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-winston": "^4.2.0",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.5",
+    "winston": "^3.17.0"
+  }
+}
